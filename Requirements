@@ -25,14 +25,9 @@ The project uses the following libraries:
 * matplotlib
 * seaborn
 * tensorflow (or pytorch, depending on the model)
-* opencv-python (if image processing is involved)
-* flask (if the project includes a web interface)
+* opencv-python 
+* flask 
 
-### Hardware
-
-* Minimum 8 GB RAM (16 GB recommended for larger datasets)
-* Multi-core processor
-* GPU support is recommended for training deep learning models but is not required for basic usage.
 
 ### Dataset
 
