@@ -1,3 +1,55 @@
-// Library Management System
--Requirements
--Java
+## Requirements
+
+Before running this project, make sure the following requirements are met:
+
+### Software
+
+* Python 3.10 or later
+* Git
+* A code editor such as Visual Studio Code
+* Jupyter Notebook (optional, for experimentation)
+
+### Python Libraries
+
+Install the required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+The project uses the following libraries:
+
+* numpy
+* pandas
+* scikit-learn
+* matplotlib
+* seaborn
+* tensorflow (or pytorch, depending on the model)
+* opencv-python (if image processing is involved)
+* flask (if the project includes a web interface)
+
+### Hardware
+
+* Minimum 8 GB RAM (16 GB recommended for larger datasets)
+* Multi-core processor
+* GPU support is recommended for training deep learning models but is not required for basic usage.
+
+### Dataset
+
+* The dataset should be placed in the `data/` directory.
+* Ensure the dataset is in the required format before running the project.
+* Any preprocessing steps should be completed before model training.
+
+### Operating System
+
+This project can be executed on:
+
+* Windows
+* Linux
+* macOS
+
+### Additional Notes
+
+* It is recommended to create a virtual environment before installing dependencies.
+* Keep all required packages updated to compatible versions.
+* Refer to the project documentation for configuration details and usage instructions.
