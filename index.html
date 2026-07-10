@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Management System</title>
 
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#007BFF;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+.container{
+    display:flex;
+}
+
+.sidebar{
+    width:220px;
+    background:#222;
+    height:100vh;
+    color:white;
+    padding-top:20px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    padding:15px;
+    border-bottom:1px solid #444;
+}
+
+.sidebar ul li:hover{
+    background:#007BFF;
+    cursor:pointer;
+}
+
+.content{
+    flex:1;
+    padding:20px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    margin-bottom:20px;
+}
+
+.card{
+    flex:1;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th, table td{
+    padding:12px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+table th{
+    background:#007BFF;
+    color:white;
+}
+
+button{
+    background:#007BFF;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Management System Dashboard</h1>
+</header>
+
+<div class="container">
+
+    <div class="sidebar">
+        <ul>
+            <li>Dashboard</li>
+            <li>Employees</li>
+            <li>Students</li>
+            <li>Products</li>
+            <li>Orders</li>
+            <li>Reports</li>
+            <li>Settings</li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <div class="cards">
+            <div class="card">
+                <h2>150</h2>
+                <p>Total Users</p>
+            </div>
+
+            <div class="card">
+                <h2>85</h2>
+                <p>Projects</p>
+            </div>
+
+            <div class="card">
+                <h2>$12,500</h2>
+                <p>Revenue</p>
+            </div>
+        </div>
+
+        <h2>Employee List</h2>
+        <br>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>John Smith</td>
+                <td>IT</td>
+                <td>Active</td>
+                <td><button>Edit</button></td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Sarah Lee</td>
+                <td>HR</td>
+                <td>Active</td>
+                <td><button>Edit</button></td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>David Brown</td>
+                <td>Finance</td>
+                <td>Inactive</td>
+                <td><button>Edit</button></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
